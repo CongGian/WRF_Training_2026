@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Virtual Hands-On Training on Anvil, Containers, and AI Workflows</title>
+    <meta
+      name="description"
+      content="A virtual NAIRR hands-on training workshop on Anvil HPC, containers, MPI-aware workflows, WRF, and Pangu-Weather AI forecast workflows."
+    >
+    <meta property="og:title" content="Virtual Hands-On Training on Anvil, Containers, and AI Workflows">
+    <meta
+      property="og:description"
+      content="Join a four-hour NAIRR training workshop on practical HPC workflows for physics-based and AI-driven weather modeling."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hpc-weather-workshop-hero.jpg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Workshop header">
+      <a class="brand" href="#top">NAIRR Training Workshop</a>
+      <nav aria-label="Primary navigation">
+        <a href="#format">Format</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#prepare">Prepare</a>
+        <a class="nav-cta" href="#register">Register</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <img
+          class="hero-image"
+          src="assets/hpc-weather-workshop-hero.jpg"
+          alt="High-performance computing racks with weather forecast visualization displays"
+        >
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Virtual NAIRR hands-on training</p>
+          <h1 id="page-title">Virtual Hands-On Training on Anvil, Containers, and AI Workflows</h1>
+          <p class="hero-lede">
+            Practical HPC workflows for classical physics-based models and emerging AI-driven
+            weather modeling, using Purdue's Anvil system as the instructional platform.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a
+              class="button button-primary"
+              href="https://docs.google.com/forms/d/11YknuEP5EdYM4YBxZVqlVcOiXYs_2rgolt7KB7rDQhY/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Register</a>
+            <a class="button button-secondary" href="#agenda">View Agenda</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="details-strip" aria-label="Event details">
+        <div class="detail-item">
+          <span>Date</span>
+          <strong>Wednesday, July 15, 2026</strong>
+        </div>
+        <div class="detail-item">
+          <span>Time</span>
+          <strong>1:00-5:00 PM Eastern Time</strong>
+        </div>
+        <div class="detail-item">
+          <span>Location</span>
+          <strong>Online via Zoom</strong>
+        </div>
+        <div class="detail-item">
+          <span>Registration Deadline</span>
+          <strong>July 1, 2026</strong>
+        </div>
+      </section>
+
+      <section class="section overview" aria-labelledby="overview-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Workshop overview</p>
+            <h2 id="overview-title">HPC workflows for weather and AI modeling</h2>
+          </div>
+          <div class="prose">
+            <p>
+              You are invited to participate in a virtual, hands-on NAIRR training workshop
+              focused on practical HPC workflows for both classical physics-based models and
+              emerging AI-driven weather modeling workflows.
+            </p>
+            <p>
+              The workshop will combine cluster onboarding, MPI-aware HPC usage, comparative
+              Weather Research and Forecasting (WRF) and Pangu-Weather demonstrations, and
+              portable container and Conda-based AI workflow design.
+            </p>
+            <p>
+              Blending short lectures, guided demonstrations, and follow-along activities on
+              Anvil, this four-hour session is intended for graduate students, postdoctoral
+              researchers, faculty, research software engineers, and research support personnel.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="format" class="section band" aria-labelledby="format-title">
+        <div class="section-inner">
+          <p class="section-kicker">Workshop format</p>
+          <h2 id="format-title">A practical path from cluster access to model comparison</h2>
+          <p class="section-lede">
+            Three CI-PIVOT Cyberinfrastructure Professionals from Purdue, Indiana University,
+            and Mississippi State University will lead the program. About half of the workshop
+            is devoted to a structured WRF and Pangu-Weather demonstration.
+          </p>
+
+          <div class="feature-grid" aria-label="Major workshop components">
+            <article class="feature">
+              <h3>Anvil onboarding</h3>
+              <p>
+                Open OnDemand, filesystems, Slurm, modules, and a light introduction to MPI
+                as the model for distributed-memory execution on clusters.
+              </p>
+            </article>
+            <article class="feature">
+              <h3>Containers and AI sidecars</h3>
+              <p>
+                Apptainer recipe and image logic, build-move-run workflows across systems,
+                the host-versus-container boundary, and Conda for GPU-enabled AI tooling.
+              </p>
+            </article>
+            <article class="feature">
+              <h3>Follow-along workflow</h3>
+              <p>
+                Prepared WRF and Pangu-Weather scripts, staged input data, selected execution
+                steps, output processing, visualization, and model comparison.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="hands-on-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Hands-on component</p>
+            <h2 id="hands-on-title">Participants with access can follow along on Anvil</h2>
+          </div>
+          <div class="check-list">
+            <p>Inspect relevant modules, filesystems, and selected scheduler workflow steps.</p>
+            <p>Observe Apptainer build and run concepts and the transition to AI sidecar tooling.</p>
+            <p>Work through a prepared WRF and Pangu-Weather case using provided scripts and staged outputs.</p>
+            <p>Review and compare representative outputs instead of rebuilding every large dependency during the session.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="agenda" class="section band" aria-labelledby="agenda-title">
+        <div class="section-inner">
+          <p class="section-kicker">Proposed agenda</p>
+          <h2 id="agenda-title">Wednesday, July 15, 2026, 1:00-5:00 PM Eastern Time</h2>
+          <div class="agenda-wrap">
+            <table class="agenda">
+              <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Presenter</th>
+                  <th scope="col">Topic</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1:00-1:15</td>
+                  <td>NAIRR</td>
+                  <td>Welcome, goals, workshop structure, and access check</td>
+                </tr>
+                <tr>
+                  <td>1:15-2:00</td>
+                  <td>Ibrahem Alshybani, Purdue University</td>
+                  <td>Anvil as the host HPC environment: access pathways, filesystems, Slurm, modules, and an MPI introduction</td>
+                </tr>
+                <tr class="break-row">
+                  <td>2:00-2:10</td>
+                  <td>Break</td>
+                  <td>Short break</td>
+                </tr>
+                <tr>
+                  <td>2:10-3:05</td>
+                  <td>Cong Gian, Indiana University</td>
+                  <td>Containerization and AI sidecar workflow: Apptainer recipe and image logic, portability across clusters, and Conda/GPU workflow design</td>
+                </tr>
+                <tr class="break-row">
+                  <td>3:05-3:15</td>
+                  <td>Break</td>
+                  <td>Short break</td>
+                </tr>
+                <tr>
+                  <td>3:15-4:00</td>
+                  <td>Adonte Knight, Mississippi State University</td>
+                  <td>WRF and Pangu demo, Part I: Pangu overview, Conda environment setup, prepared data/model layout, inference workflow, and output processing</td>
+                </tr>
+                <tr class="break-row">
+                  <td>4:00-4:10</td>
+                  <td>Break</td>
+                  <td>Short break</td>
+                </tr>
+                <tr>
+                  <td>4:10-4:40</td>
+                  <td>Adonte Knight, Mississippi State University</td>
+                  <td>WRF and Pangu demo, Part II: WRF-ARW/WPS workflow, selected execution steps, visualization, and AI-versus-dynamic-model comparison</td>
+                </tr>
+                <tr>
+                  <td>4:40-4:55</td>
+                  <td>All</td>
+                  <td>Q&amp;A and troubleshooting clinic</td>
+                </tr>
+                <tr>
+                  <td>4:55-5:00</td>
+                  <td>All</td>
+                  <td>Closing remarks and follow-up resources</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="prepare" class="section" aria-labelledby="prepare-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Participant preparation</p>
+            <h2 id="prepare-title">Complete account setup before the workshop</h2>
+            <p class="section-note">
+              Participants who wish to replicate the demonstrations should complete setup at
+              least two weeks before the workshop whenever possible.
+            </p>
+          </div>
+          <div class="preparation-list">
+            <article>
+              <h3>ACCESS and Anvil</h3>
+              <p>
+                Create an ACCESS ID, enroll in ACCESS Duo multi-factor authentication, and
+                ensure that you have been added to the appropriate project or workshop
+                allocation on Anvil before the session.
+              </p>
+            </article>
+            <article>
+              <h3>Open OnDemand</h3>
+              <p>
+                Test login to Anvil in advance. Open OnDemand is recommended because it runs
+                in a web browser and reduces local software requirements.
+              </p>
+            </article>
+            <article>
+              <h3>Local readiness</h3>
+              <p>
+                A stable internet connection, a modern web browser, and basic comfort with
+                terminal copy-and-paste are strongly recommended.
+              </p>
+            </article>
+            <article>
+              <h3>Command cheat sheet</h3>
+              <p>
+                A lightweight command cheat sheet will be posted in the workshop repository
+                before the session. Participants do not need advanced Linux or prior HPC
+                experience to attend.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="register" class="registration" aria-labelledby="register-title">
+        <div class="registration-inner">
+          <p class="section-kicker">Registration</p>
+          <h2 id="register-title">Register by July 1, 2026</h2>
+          <p>
+            The registration form includes a short readiness survey so organizers can help
+            participants prepare for Anvil access and hands-on materials. Use your institutional
+            affiliation email address rather than a personal email address.
+          </p>
+          <a
+            class="button button-primary"
+            href="https://docs.google.com/forms/d/11YknuEP5EdYM4YBxZVqlVcOiXYs_2rgolt7KB7rDQhY/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Open Registration Form</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

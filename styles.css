@@ -569,6 +569,18 @@ h3 {
   color: var(--muted);
 }
 
+.preparation-list a {
+  color: var(--iu-crimson);
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.preparation-list a:hover,
+.preparation-list a:focus-visible {
+  color: var(--msu-maroon);
+}
+
 .registration {
   padding: 82px 48px;
   color: #ffffff;

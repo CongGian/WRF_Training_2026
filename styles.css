@@ -563,6 +563,11 @@ h3 {
   background: var(--iu-crimson);
 }
 
+.agenda-tag-demo {
+  color: #111111;
+  background: var(--purdue-gold);
+}
+
 .break-row td {
   color: #6f5a2a;
   background: var(--gold-soft);

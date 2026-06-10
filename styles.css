@@ -427,6 +427,12 @@ h3 {
   max-width: 430px;
 }
 
+.agenda-note {
+  max-width: 820px;
+  margin: 0 0 24px;
+  color: var(--muted);
+}
+
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -529,6 +535,32 @@ h3 {
   width: 260px;
   color: var(--iu-crimson);
   font-weight: 700;
+}
+
+.agenda-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 5px 9px;
+  border-radius: 6px;
+  font-size: 0.76rem;
+  font-weight: 900;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.agenda-note .agenda-tag {
+  margin: 0 3px;
+  vertical-align: middle;
+}
+
+.agenda td .agenda-tag {
+  margin: 0 0 8px;
+}
+
+.agenda-tag-hands {
+  color: #ffffff;
+  background: var(--iu-crimson);
 }
 
 .break-row td {
